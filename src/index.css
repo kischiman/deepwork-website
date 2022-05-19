@@ -1,0 +1,134 @@
+@import "assets/styles/fonts.css";
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: 'IBM Plex Sans', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+label{
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+mark {
+  background-color: unset;
+  color: #FF0088;
+}
+figure, p {
+  margin: 0;
+  padding: 0;
+}
+.img-responsive {
+  display: block;
+  width: 100%;
+}
+main.article-details {
+  padding-bottom: 100px;
+}
+
+.article-details {
+  line-height: 1.778;
+}
+.article-details a {
+  color: #FF0088;
+  text-decoration: none;
+}
+.article-details > div {
+  max-width: 920px;
+  margin: 55px auto;
+}
+.article-details section, .article-details footer {
+  padding: 0 60px;
+  margin-top: 60px;
+  font-size: 18px;
+}
+.article-details article {
+  margin-bottom: 32px;
+}
+.article-details article p {
+  margin-bottom: 6px;
+}
+.article-details article p em {
+  padding-left: 28px;
+  font-weight: 900;
+  position: relative;
+  display: block;
+}
+.article-details article p em::before {
+  content: '';
+  width: 8px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #FF0088;
+}
+.article-details img {
+  width: 100%
+}
+.article-details figure {
+  margin: 0;
+}
+.article-details figure figcaption {
+  text-align: center;
+  display: block;
+  margin-top: 21px;
+  margin-bottom: 32px;
+}
+
+.article-details > section > article {
+  margin-bottom: 30px;
+}
+
+.article-details > h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.article-details > h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.article-details blockquote {
+  padding: 0 10px;
+  max-width: 920px;
+  margin: 0 auto 70px;
+}
+.article-details ol li::marker {
+  color: #fff
+}
+.article-details ol li {
+  margin-bottom: 30px;
+}
+.article-details ul {
+  padding-left: 20px;
+}
+
+.article-details ul li {
+  margin-bottom: 32px;
+}
+.article-details ul li::marker {
+  color: #FF0088;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .article-details section, .article-details footer {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .article-details > div {
+    margin-top: 30px;
+  }
+}

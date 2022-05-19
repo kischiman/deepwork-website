@@ -1,0 +1,10 @@
+.root {
+}
+.root:last-child {
+  margin-right: 0;
+}
+
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
